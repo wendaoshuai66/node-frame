@@ -1,0 +1,20 @@
+<table class="table table-condensed">
+    <thead>
+        <tr>
+            <th>书名</th>
+            <th>作者</th>
+            <th>内容</th>
+            <th>添加日期</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for val in data %}
+        <tr class="active">
+            <th scope="row">{{val.name}}</th>
+            <td>{{val.author}}</td>
+            <td>{{val.contant}}</td>
+            <td>{{val.addbookTime}}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

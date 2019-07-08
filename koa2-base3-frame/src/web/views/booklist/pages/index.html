@@ -1,0 +1,16 @@
+{% extends '../../layouts/layouts.html' %} {% block title %} 📖图书管理系统 {% endblock %} {% block head %}
+<link rel="stylesheet" href="/styles/index.css"> {% endblock %} {% block content %}
+<div>
+    <h1>📖图书管理系统首页学习system</h1>
+    <div>
+
+
+        <script type="nomodule">
+            import('/scripts/index.js').then((_)=>{ console.log(_.default) })
+        </script>
+        <script type="module" src="https://cdn.bootcss.com/systemjs/3.1.6/system.js"></script>
+        <script type="module">
+            System.import('/scripts/index-bundle.js').then((_)=>{ console.log(_.default) })
+        </script>
+
+        {% endblock %}
