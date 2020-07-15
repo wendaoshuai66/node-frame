@@ -75,7 +75,7 @@ export default ListController;
 ```
 
 
-basket.js https://github.com/68wangxianming/basket.js
+basket.js https://github.com/addyosmani/basket.js
 再将<script src="/scripts/runtime.bundle.js"></script><script src="/scripts/books-add.bundle.js"></script>
 存入localstorage点击切换spa页面时，页面几乎不请求数据
 
